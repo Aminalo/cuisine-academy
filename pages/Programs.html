@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/programm.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+<style>
+    .table1{
+    width: 70%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    color: #FFFDFC;
+}
+
+.table1 thead tr{
+    background-color: #FFFDFC;
+    color: #F9791A;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table1 th, .table1 td{
+    padding: 12px 15px;
+}
+
+.table1 tbody tr {
+    border-bottom: 1px #FFFDFC dotted;
+}
+</style>
 </head>
 <body>
     <nav class="menu-bar">
@@ -30,8 +56,8 @@
             <li> <a href="../pages/signUp.html">Sign Up/In</a></li>
         </ul>
     </nav>
-    <div>
-        <h1>Our core Programs</h1>
+    <div style="background-color: #F9791A;">
+        <h1 style="color: #FFFDFC; margin: 10px;">Our core Programs</h1>
         <table class="table1">
             <thead>
                 <tr>
@@ -75,7 +101,8 @@
         </div>
     </div>
 
-    <footer>
+    <section>
+        <footer>
         <div class="footer">
             <di class="footer-content">
                 <h3>Contact us</h3>
@@ -107,5 +134,6 @@
               <p>&copy; 2025Cuisine Academy. All rights reserved  </p>  
             </div>
     </footer>
+    </section>
 </body>
 </html>
